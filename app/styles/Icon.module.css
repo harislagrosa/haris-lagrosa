@@ -1,0 +1,31 @@
+@font-face {
+    font-family: boxicons;
+    font-weight: 400;
+    font-style: normal;
+    src: url(./icons/boxicons.ttf) format('truetype'), url(./icons/boxicons.svg) format('svg')
+}
+
+.icon {
+    font-family: boxicons !important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.iconFacebook:before {
+    content: "\e92f"
+}
+
+.iconLinkedIn:before {
+    content: "\e94d"
+}
+
+.iconGithub:before {
+    content: "\e93a"
+}

@@ -1,0 +1,17 @@
+.footer {
+    background: rgb(17 24 39);
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 70px 0;
+    border-top: 1px solid #075985;
+}
+
+.footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
