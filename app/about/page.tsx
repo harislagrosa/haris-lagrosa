@@ -6,7 +6,7 @@ import sectionStyles from '../styles/Section.module.css'
 
 const AboutPage = () => {
     return (
-        <section className="">
+        <section className="a">
             <div className="">
 
 
@@ -14,15 +14,15 @@ const AboutPage = () => {
                     <div className="col-lg-6 mx-auto">
 
                         <div className="col-lg-6 mx-auto">
-                            <Image
-                            className=''
+                            {/* <Image
+                                className=''
                                 src="/profile-img.jpg"
                                 alt="Haris Lagrosa II"
                                 width={0}
                                 height={0}
                                 layout="responsive"
                                 priority
-                            />
+                            /> */}
                         </div>
 
                         <div className={sectionStyles.sectionTitle}>
